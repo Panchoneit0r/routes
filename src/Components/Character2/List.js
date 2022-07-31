@@ -40,7 +40,7 @@ export default function List (){
     }
     
     const goToPage = (event, number) =>{
-        setPage(setPage(number))
+        setPage(number)
         setCurrentPageUrl(`https://rickandmortyapi.com/api/character?page=${number}`)
     }
     if(loading)
